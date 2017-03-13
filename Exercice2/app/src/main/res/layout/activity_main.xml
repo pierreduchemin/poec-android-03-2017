@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cake" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Difficulté" />
+
+            <LinearLayout
+                android:id="@+id/llDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDifficulty"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_stars_black_24dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_stars_black_24dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_stars_black_24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llDifficulty"
+                android:text="Prix" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCost"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:contentDescription="@string/star" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_stars_black_24dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Perferendis aut maxime dolorem praesentium. Saepe adipisci ea non optio. Itaque consequatur reiciendis et. Et unde delectus quae vero est enim cumque. Veritatis rerum tenetur incidunt ut temporibus nemo rerum. Est accusantium sit et ex saepe ducimus.
+
+Et omnis non pariatur omnis. Velit doloribus voluptatum voluptate. Qui et nisi incidunt aliquid voluptas et.
+
+Est fugiat aut omnis ut. Dolore magni ea quis et. Eligendi illo expedita et et. Nulla distinctio earum et reprehenderit. Ad consectetur aut rerum qui quisquam distinctio. Assumenda error quia pariatur nam ducimus aut.
+
+Iure accusamus hic sit quo quidem delectus. Officiis repudiandae labore asperiores et aut. Voluptate quam officia odit iste sed maxime. Et architecto sit nobis." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="Commentaires"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
