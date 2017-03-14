@@ -1,0 +1,47 @@
+[
+  {
+    "question": "De quel pays l\'Axolotl est-il originaire ?",
+    "answer": 1,
+    "answers": [
+      "Brésil",
+      "Mexique",
+      "Chili"
+    ]
+  },
+  {
+    "question": "Quelle taille peut-il faire à l\'âge adulte ?",
+    "answer": 0,
+    "answers": [
+      "40 cm",
+      "5 m",
+      "5 mm"
+    ]
+  },
+  {
+    "question": "Quelle est sa particularité ?",
+    "answer": 0,
+    "answers": [
+      "Il peut rester toute sa vie à l'état larvaire",
+      "Il peut manger 2 fois son poids en une journée",
+      "Il ne connais pas la peur"
+    ]
+  },
+  {
+    "question": "Quelle est son autre particularité ?",
+    "answer": 2,
+    "answers": [
+      "Il peut nager pendant des heures",
+      "Il est carnivore",
+      "Il est capable de régénérer un de ses membres ou une partie de son cerveau"
+    ]
+  },
+  {
+    "question": "Combien de temps un Axololt vit-il en moyenne ?",
+    "answer": 0,
+    "answers": [
+      "Entre 10 et 15 ans",
+      "Entre 10 et 15 mois",
+      "Entre 3 et 5 ans"
+    ]
+  }
+]
