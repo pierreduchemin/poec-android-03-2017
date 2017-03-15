@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Exercice10</string>
+    <string name="info_desc_describes_repo_access">describes repo access</string>
+    <string name="error_message_api_error">API error</string>
+    <string name="error_message_network_error">Network error</string>
+    <string name="info_message_repositories_updated">Repositories updated</string>
+</resources>

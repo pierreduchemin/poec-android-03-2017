@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProgressDialogExampleActivity!</string>
+    <string name="app_name">ProgressDialogExample</string>
+    <string name="dialog_title">Titre de la barre de progression</string>
+	<string name="dialog_load">Chargement, veuillez patienter ...</string>
+</resources>

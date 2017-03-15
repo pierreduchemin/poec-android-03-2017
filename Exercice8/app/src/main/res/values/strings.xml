@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz Axolotl</string>
+    <string name="instruction">Répondre aux questions suivantes :</string>
+
+    <string name="question_1">De quel pays l\'Axolotl est-il originaire ?</string>
+    <string name="question_2">Quelle taille peut-il faire à l\'âge adulte ?</string>
+    <string name="question_3">Quelle est sa particularité ?</string>
+    <string name="question_4">Quelle est son autre particularité ?</string>
+    <string name="question_5">Combien de temps un Axololt vit-il en moyenne ?</string>
+    
+    <string name="button">Afficher mon score !</string>
+    <string name="info_message_score">Score : %d / 5</string>
+
+</resources>
